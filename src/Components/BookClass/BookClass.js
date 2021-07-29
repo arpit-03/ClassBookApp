@@ -15,7 +15,7 @@ export const BookClass = () =>{
       }
 
     const [timeLeft, setTimeLeft] = useState(getRandomNumberInInterval(30,60));
-    const [seatsLeft, setSeatsLeft] = useState(getRandomNumberInInterval(7,15));
+    const [seatsLeft, setSeatsLeft] = useState(getRandomNumberInInterval(5,15));
     const [classData , setClassData] = useState([]);
     const [seatsBooked, setSeatsBooked] = useState (0);
     const [bookedClasses , setBookedClasses] = useState(new Map());
