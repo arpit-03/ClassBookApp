@@ -1,0 +1,88 @@
+.mainView{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.timer{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.classHeader{
+    display: flex;
+    justify-content: space-between;
+    h3{
+        color: #e77230;
+        font-size: 22px;
+    }
+    .cart{
+        font-size: 25px;
+    }
+    .notif{
+        height: 20px;
+        width: 20px;
+        background-color: red;
+        text-align: center;
+        border-radius: 50%;
+        color: white;
+        font-weight: 600;
+        position: relative;
+        left: -7px;
+        top: -8px;
+    }
+    .scheduleHeader{
+        font-size: 20px;
+        font-weight: 600;
+        color: #252575;
+    }
+    
+}
+
+.yellow{
+    color: #e29218;
+}
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+.flex{
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+   th {
+    background: #172269;
+    color:white;
+    font-weight: 600;
+    width: 25%;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background: #efefef;
+  }
+  
+  tr:hover {
+    background: #d1d1d1;
+  }
+
+  tr{
+      width: 100%;
+  }
+
+  .no-result{
+    text-align: center;
+    padding: 20px;
+    background: #efefef;
+  }
